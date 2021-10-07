@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #183050;
+  --second-color : #ec8d55;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/*Banner CSS*/
+.banner-title {
+  color: #03989e;
+  font-size: 100%;
+  margin-right: 30px;
+}
+
+.banner-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+/*Footer CSS*/
+.footer {
+  background-color: #03989e;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.text {
+  margin-bottom: 0px;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+  .carousel-caption {
+    top: 20%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 150%;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    max-width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .banner-name {
+    font-size: 50%;
+    text-align: justify;
+  }
+
+  .banner-img {
+    max-width: 30%;
+  }
+}
+
+
+/*# sourceMappingURL=app.css.map */

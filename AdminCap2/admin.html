@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="shortcut icon" href="/images/logo-mb.png" type="image/png">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="/images/logo.png" alt="C2SE.05 logo">
+            <div class="sidebar-logo__name">T&C English Courses</div>
+            <div class="sidebar-close" id="sidebar-close">
+                <i class='bx bx-left-arrow-alt'></i>
+            </div>
+        </div>
+        <!-- SIDEBAR MENU -->
+        <ul class="sidebar-menu">
+            <li class="sidebar-menu__list active">
+                <a href="#">
+                    <i class='bx bx-home'></i>
+                    <span>dashboard</span>
+                </a>
+            </li>
+            <li class="sidebar-menu__list">
+                <a href="#">
+                    <i class='bx bx-chart'></i>
+                    <span>analytic</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu sidebar-menu__list">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-user-circle'></i>
+                    <span>account</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            list of account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            create account
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu sidebar-menu__list">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-category'></i>
+                    <span>THE COURSES</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            list of courses
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            add new course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu sidebar-menu__list">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-category'></i>
+                    <span>THE QUESTIONS</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            Create question
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Import file questions
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Show report of the question
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu sidebar-menu__list">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-category'></i>
+                    <span>THE EXAMS</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            Create exams
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Export file exams
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__list">
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span>RECEIVE PAYMENT</span>
+                </a>
+            </li>
+            <li class="sidebar-menu__list">
+                <a href="#">
+                    <i class='bx bx-mail-send'></i>
+                    <span>mail</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu sidebar-menu__list">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-cog'></i>
+                    <span>settings</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#" class="darkmode-toggle" id="darkmode-toggle">
+                            darkmode
+                            <span class="darkmode-switch"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- END SIDEBAR MENU -->
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+        <div class="main-header">
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+            <div class="main-title">
+                dashboard
+            </div>
+            <div class="sidebar-user">
+                <div class="sidebar-user-info">
+                    <img src="/images/user_test.png" alt="User picture" class="profile-image">
+                    <div class="sidebar-user-name">
+                        Tien Quang
+                    </div>
+                </div>
+                <button class="btn btn-outline">
+                    <i class='bx bx-log-out bx-flip-horizontal'></i>
+                </button>
+            </div>
+        </div>
+        <div class="main-content">
+            
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+
+    <!-- <div class="overlay"></div> -->
+   
+    <!-- APP JS -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

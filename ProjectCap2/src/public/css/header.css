@@ -1,0 +1,33 @@
+/* .header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+} */
+
+ul{
+    margin: 0;
+}
+
+.logo-font{
+    color: #ec8d55;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.logo-img{
+    margin-left: 50px;
+}
+
+.navbar{
+    background-color: #183050;
+    /* margin-bottom: 16px; */
+}
+.nav-item a{
+    color: #ec8d55;
+}
+/* .collapse .navbar-collapse{
+    background: #004aad;
+} */

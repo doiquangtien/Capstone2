@@ -1,0 +1,33 @@
+{
+  "name": "blog_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass src/resources/scss/app.scss src/public/css/app.css", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doiquangtien/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "node"
+  ],
+  "author": "tiendq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doiquangtien/blog/issues"
+  },
+  "homepage": "https://github.com/doiquangtien/blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
